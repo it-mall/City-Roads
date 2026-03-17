@@ -5,9 +5,9 @@
   "author": "Andrei Kashcha",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "vite",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
+    "start": "node init && vite",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
